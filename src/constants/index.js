@@ -1,6 +1,6 @@
 import {
-  mobile2,
-  backend2,
+  mobile,
+  backend,
   creator2,
   web,
   web2,
@@ -43,21 +43,21 @@ export const navLinks = [
 
 const services = [
   {
-    title: "React.JS",
-    icon: web2,
+    title: "Frontend Developer",
+    icon: web,
   },
   {
-    title: "Next.JS",
-    icon: mobile2,
+    title: "React Developer",
+    icon: mobile,
   },
   {
-    title: "Tailwind",
-    icon: backend2,
+    title: "UI/UX Developer",
+    icon: backend,
   },
-  {
-    title: "Typescript",
-    icon: creator2,
-  },
+  // {
+  //   title: "Typescript",
+  //   icon: creator2,
+  // },
 ];
 
 const technologies = [
@@ -109,12 +109,17 @@ const experiences = [
     company_name: "YalaTechies",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sep 2023 - Feb 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      //   "Developing and maintaining web applications using React.js and other related technologies.",
+      //   "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      //   "Implementing responsive design and ensuring cross-browser compatibility.",
+      //   "Participating in code reviews and providing constructive feedback to other developers.",
+      //
+
+      "  I was a frontend developer intern for 3 months and gained hands-on experience with various technologies and tools, working closely with a development team.  ",
+      "I learned about the frontend development process and worked with HTML, CSS and JavaScript.  ",
+      "It was a valuable experience that helped me improve my skills and understanding of the frontend development field.",
     ],
   },
   {
@@ -122,12 +127,11 @@ const experiences = [
     company_name: "Amnil Technologies",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2023 - Sep 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      " My time as a React Developer  at Amnil Technologies was an invaluable experience that allowed me to apply theoretical knowledge in a practical setting.  ",
+      " I am grateful for the opportunity to have contributed to impactful projects and expanded my skills as a React developer.",
+      
     ],
   },
 ];

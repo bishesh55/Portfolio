@@ -17,7 +17,8 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div variants={
+      fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{
           max: 45,
@@ -93,6 +94,20 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
+      {/* my cv download is here */}
+      <motion.div variants={
+      fadeIn("left", "spring", 1)}>
+
+      <div className="flex justify-center mt-10">
+      <a
+        href="/cv.pdf" // Path to the CV file in the public folder
+        download="My_CV.pdf" // Optional: Renames the file when downloaded
+        className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded shadow"
+        >
+        Download My CV
+      </a>
+    </div>
+        </motion.div>
     </>
   );
 };
