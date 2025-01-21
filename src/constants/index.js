@@ -131,7 +131,6 @@ const experiences = [
     points: [
       " My time as a React Developer  at Amnil Technologies was an invaluable experience that allowed me to apply theoretical knowledge in a practical setting.  ",
       " I am grateful for the opportunity to have contributed to impactful projects and expanded my skills as a React developer.",
-      
     ],
   },
 ];
@@ -183,7 +182,7 @@ const projects = [
       },
     ],
     image: carrent2,
-    source_code_link: "https://github.com/bishesh55",
+    source_code_link: "https://github.com/rohancancode/theoccupi",
   },
   // {
   //   name: "Job IT",

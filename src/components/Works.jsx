@@ -102,7 +102,8 @@ const Works = () => {
       <a
         href="/cv.pdf" // Path to the CV file in the public folder
         download="My_CV.pdf" // Optional: Renames the file when downloaded
-        className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded shadow"
+        className="bg-tertiary
+         hover:bg-blue-600 text-white font-bold py-2 px-4 rounded shadow"
         >
         Download My CV
       </a>
